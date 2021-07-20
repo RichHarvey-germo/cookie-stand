@@ -1,0 +1,80 @@
+
+body {
+  background-color: rgb(248, 174, 0);
+  /* width: 80%; */
+  margin: 40px auto;
+  display: block;
+  font-size: 1.3em;
+  color: #000000;
+  line-height: 1.2em;
+}
+
+h1 {
+  /* font-family: arial black; */
+  color: salmon;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  margin: 80px 0px;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: -3px;
+  text-shadow: 3px 3px rgb(84, 84, 84);
+}
+
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: rgb(93, 98, 85);
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 60px 0px 30px 0px;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(93, 98, 85);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(202, 26, 26);
+  text-decoration: none;
+  -webkit-transition: color .5s ease-out; -moz-transition: color .5s ease-out; transition: color .5s ease-out;
+}
+
+main {
+  width: 70%;
+  margin: 0px auto;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+div {
+  text-align: center;
+}
+
+article {
+  text-align: left;
+  background-color: rgb(255, 254, 254);
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+span {
+  width: 60px;
+  display: inline-block;
+}
+
+p {
+  margin: 20px;
+}

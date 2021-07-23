@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Pat's Fish Cookies</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
-        <header>
-            <h1>Pat's Fish Cookies</h1>
-            <h2>Store Sales</h2>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sales.html">Sales Stats</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div id="store">
-            </div>
-        </main>
-        <footer></footer>
-        <script src="js/app.js"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pat's Fish Cookies</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Pat's Fish Cookies</h1>
+        <h2>Store Sales</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sales.html">Sales</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="store">
+            <h2>Sales Data per Location</h2>
+            <form action="getShopForm">
+                <br>
+                <legend> Add a shop</legend>
+                <label for="Minimum Customers"> Minimum Customers per hour: <input type="number" name="maximum"
+                        id="maximum"></label> <br><br>
+                <label for="Minimum Customers"> Minimum Customers per hour: <input type="number" name="minimum"
+                        id="minimum"></label> <br><br>
+                <label for="Average Customers"> Average Customers per hour: <input type="text" step="0.1" name="average"
+                        id="average"></label> <br><br>
+                <label for="Hours of Opereration">Is the store open from 6am to 8pm?</label><br><br>
+                <input type="radio" name="hoursYes" id="hoursYes">Yes</input><input type="radio" name="hoursNo"
+                    id="hoursNo">No</input> <br><br>
+                </fieldset>
+                <button type="submit">Add store</button>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/app.js"></script>
+</body>
+
 </html>
